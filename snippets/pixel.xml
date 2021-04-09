@@ -10,6 +10,10 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="eleven" />
 
+  <remote name="pixelos"
+          fetch="https://github.com/PixelOS-Pixelish"
+          revision="eleven" />
+
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
           revision="eleven" />
@@ -86,7 +90,6 @@
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
@@ -100,7 +103,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixelos" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -110,7 +113,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel">
+  <project path="build/make" name="build" remote="pixelos">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -129,7 +132,8 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pixelos" />
+  <project path="vendor/apps/FaceUnlock" name="Twel12/android_vendor_apps_FaceUnlock" remote="gitlab" revision="main"/>
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
 
@@ -162,23 +166,22 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixelos" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixelos" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixelos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->
