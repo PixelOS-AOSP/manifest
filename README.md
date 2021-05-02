@@ -1,4 +1,4 @@
-# Pixel Experience #
+# Pixelish #
 
 ### Sync ###
 
