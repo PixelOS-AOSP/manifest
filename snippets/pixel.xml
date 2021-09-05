@@ -10,6 +10,10 @@
           fetch="https://github.com/PixelExperience-Devices"
           revision="eleven" />
 
+  <remote name="pixelos"
+          fetch="https://github.com/PixelOS-Pixelish"
+          revision="eleven" />
+  
   <remote name="pixelish"
           fetch="https://github.com/PixelOS-Pixelish"
           revision="eleven-plus" />
