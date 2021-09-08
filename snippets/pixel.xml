@@ -203,13 +203,13 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="pixel" />
+  <project path="system/bt" name="system_bt" remote="pixelos" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixelish" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixelos" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
