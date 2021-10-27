@@ -9,6 +9,10 @@
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
           revision="twelve" />
+      
+  <remote name="pixelos"
+          fetch="https://github.com/PixelOS-Pixelish"
+          revision="twelve" />
 
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
@@ -28,8 +32,8 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixelos" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixelos" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -38,7 +42,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel">
+  <project path="build/make" name="build" remote="pixelos">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -84,7 +88,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixelos" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
@@ -102,7 +106,7 @@
   <!-- System Repos -->
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
-  <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/core" name="system_core" remote="pixelos" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
