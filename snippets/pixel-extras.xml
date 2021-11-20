@@ -5,8 +5,12 @@
   <!--project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" /-->
   <project path="external/bson" name="external_bson" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="pixel" />
+  <project path="external/json-c" name="external_json-c" remote="pixel" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pixel" />
-  
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
+
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixelos" />
@@ -32,6 +36,7 @@
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
+  <project path="system/qcom" name="system_qcom" remote="pixel" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="pixel" />
 
   <!-- Tools Repos -->
