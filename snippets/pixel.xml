@@ -36,7 +36,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixelos" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixelos" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixelos" revision="staging/twelve" />
   <project path="frameworks/native" name="frameworks_native" remote="pixelos" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
