@@ -2,7 +2,7 @@
 
 ### Initialize local repository ###
 ```
-repo init -u https://github.com/PixelOS-Pixelish/manifest -b twelve
+repo init -u https://github.com/PixelOS-Pixelish/manifest -b staging/twelve
 ```
 
 ### Sync ###
