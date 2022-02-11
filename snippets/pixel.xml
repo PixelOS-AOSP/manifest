@@ -121,7 +121,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixelos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->
@@ -135,7 +135,7 @@
 
   <!-- System Repos -->
   <project path="system/bpf" name="system_bpf" remote="pixel" />
-  <project path="system/bt" name="system_bt" remote="pixel" />
+  <project path="system/bt" name="system_bt" remote="pixelos" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="pixel" />
