@@ -119,7 +119,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixelos" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixelos" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixelos" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
@@ -148,7 +148,7 @@
   <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixelos" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
-  <project path="system/security" name="system_security" remote="pixel" />
+  <project path="system/security" name="system_security" remote="pixelos" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
