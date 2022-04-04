@@ -6,6 +6,11 @@
           revision="twelve"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="twelve-plus"
+          review="gerrit.pixelexperience.org" />
+
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience/twelve"
           revision="twelve" />
