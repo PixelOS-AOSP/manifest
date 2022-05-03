@@ -23,12 +23,12 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
-  <remote name="pixel-devices"
-          fetch="https://github.com/PixelExperience-Devices"
+  <remote name="pixelos-devices"
+          fetch="https://github.com/PixelOS-Devices"
           revision="twelve" />
 
-  <remote name="pixel-devices-blobs"
-          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+  <remote name="pixelos-gitlab"
+          fetch="https://gitlab.com/PixelOS-Pixelish"
           revision="twelve" />
 
   <!-- External repos -->
