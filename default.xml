@@ -18,9 +18,7 @@
 
   <default revision="refs/tags/android-12.1.0_r5"
            remote="aosp"
-           sync-j="4"
-           sync-c="true"
-           sync-f="true" />
+           sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r5" />
   <contactinfo bugurl="go/repo-bug" />
