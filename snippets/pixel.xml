@@ -159,7 +159,7 @@
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
-  <project path="system/vold" name="system_vold" remote="pixelos" />
+  <project path="system/vold" name="system_vold" remote="pixel" />
 
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
