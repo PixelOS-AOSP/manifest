@@ -35,6 +35,7 @@
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
@@ -145,7 +146,7 @@
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixelos" />
   <project path="system/core" name="system_core" remote="pixel" />
-  <project path="system/extras" name="system_extras" remote="pixel" />
+  <project path="system/extras" name="system_extras" remote="pixelos" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="pixelos" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
