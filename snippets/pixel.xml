@@ -51,10 +51,10 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixelos" />
   <project path="frameworks/base" name="frameworks_base" remote="pixelos" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <project path="frameworks/native" name="frameworks_native" remote="pixelos" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixelos" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixelos" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
@@ -70,7 +70,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="pixel" >
+  <project path="build/soong" name="build_soong" remote="pixelos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -79,14 +79,14 @@
   <project path="development" name="development" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
-  <project path="platform_testing" name="platform_testing" remote="pixel" />
+  <project path="platform_testing" name="platform_testing" remote="pixelos" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixel" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixelos" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="hardware_knowles_athletico_sound_trigger_hal" remote="pixel" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixelos" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" remote="pixel" />
@@ -116,7 +116,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixelos" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixelos" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
@@ -131,7 +131,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixelos" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixelos" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
@@ -153,14 +153,14 @@
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixelos" />
-  <project path="system/nfc" name="system_nfc" remote="pixel" />
+  <project path="system/nfc" name="system_nfc" remote="pixelos" />
   <project path="system/security" name="system_security" remote="pixelos" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
-  <project path="system/timezone" name="system_timezone" remote="pixel" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixelos" />
+  <project path="system/timezone" name="system_timezone" remote="pixelos" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
   <project path="system/update_engine" name="system_update_engine" remote="pixel" />
-  <project path="system/vold" name="system_vold" remote="pixel" />
+  <project path="system/vold" name="system_vold" remote="pixelos" />
 
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
