@@ -60,7 +60,6 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixelos" />
   <project path="bionic" name="bionic" remote="pixelos" />
-  <project path="libcore" name="libcore" remote="pixelos" />
   <project path="build/make" name="build" remote="pixelos">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
