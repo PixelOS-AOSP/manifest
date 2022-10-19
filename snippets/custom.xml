@@ -56,6 +56,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="PixelOS" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="PixelOS" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="PixelOS" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="PixelOS" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="PixelOS" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
 
