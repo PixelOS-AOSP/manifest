@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="PixelOS"
+           fetch="https://github.com/PixelOS-Pixelish"
+           revision="refs/heads/thirteen" />
+
+  <remote  name="PixelOS-Gitlab"
+           fetch="https://gitlab.com/PixelOS-Pixelish"
+           revision="refs/heads/thirteen" />
+
+  <!-- build repos -->
+  <project path="build/make" name="build" groups="pdk" remote="PixelOS" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="PixelOS" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="art" remote="PixelOS" />
+  <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
+  <project path="manifest" name="manifest" remote="PixelOS" />
+
+  <!-- bootable repos -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="PixelOS" />
+
+  <!-- device repos -->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="PixelOS" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="PixelOS" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="PixelOS" />
+
+  <!-- external repos -->
+  <project path="external/mimalloc" name="external_mimalloc" remote="PixelOS" />
+
+  <!-- hardware repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="PixelOS" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="PixelOS" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="PixelOS" />
+
+  <!-- framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="PixelOS" />
+  <project path="frameworks/base" name="frameworks_base" remote="PixelOS" />
+  <project path="frameworks/native" name="frameworks_native" remote="PixelOS" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="PixelOS" />
+
+  <!-- packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="PixelOS" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="PixelOS" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="PixelOS" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="PixelOS" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="PixelOS" />
+
+  <!-- system repos -->
+  <project path="system/core" name="system_core" remote="PixelOS" />
+  <project path="system/media" name="system_media" remote="PixelOS" /> 
+  <project path="system/sepolicy" name="system_sepolicy" remote="PixelOS" />
+  <project path="system/vold" name="system_vold" remote="PixelOS" />
+
+  <!-- vendor repos -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
+  <project path="vendor/support" name="vendor_support" remote="PixelOS" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="PixelOS" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
+  <project path="vendor/gms" name="vendor_gms" remote="PixelOS-Gitlab" revision="thirteen" clone-depth="1" />
+  
+  <!-- other repos -->
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="PixelOS" />
+
+</manifest>
