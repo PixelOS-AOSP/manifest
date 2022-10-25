@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="PixelOS"
-           fetch="https://github.com/PixelOS-Pixelish"
+           fetch="https://github.com/PixelOS-AOSP"
            revision="refs/heads/thirteen" />
 
   <remote  name="PixelOS-Gitlab"
