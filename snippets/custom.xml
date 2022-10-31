@@ -46,7 +46,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="PixelOS" />
-  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="PixelOS" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="PixelOS" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
 
@@ -61,6 +60,7 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
 
   <!-- Packages -->
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="PixelOS" />
 
