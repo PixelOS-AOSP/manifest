@@ -57,6 +57,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="PixelOS" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="PixelOS" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="PixelOS" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
 
   <!-- system repos -->
   <project path="system/core" name="system_core" remote="PixelOS" />

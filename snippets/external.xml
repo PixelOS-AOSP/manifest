@@ -82,7 +82,6 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
