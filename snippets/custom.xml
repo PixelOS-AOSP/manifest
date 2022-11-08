@@ -36,7 +36,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="PixelOS" />
 
   <!-- external repos -->
-  <project path="external/mimalloc" name="external_mimalloc" remote="PixelOS" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="PixelOS" />
 
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="PixelOS" />
