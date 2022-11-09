@@ -16,6 +16,14 @@
            fetch="https://github.com/lineageos"
            revision="refs/heads/lineage-20.0" />
 
+  <remote name="pixelexperience"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"  />
+
+  <remote name="pixelexperience-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="thirteen" />
+
   <!-- device repos -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="arrow" />
 
@@ -25,6 +33,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixelexperience-gitlab" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
@@ -101,6 +110,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
 
   <!-- packages repos -->
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixelexperience" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
