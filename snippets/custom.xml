@@ -32,8 +32,6 @@
 
   <!-- device repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="PixelOS" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="PixelOS" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="PixelOS" revision="thirteen-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="PixelOS" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr" remote="PixelOS" revision="thirteen-legacy-um"  />
 
