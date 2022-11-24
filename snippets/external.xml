@@ -16,6 +16,10 @@
            fetch="https://github.com/lineageos"
            revision="refs/heads/lineage-20.0" />
 
+  <remote  name="yaap"
+           fetch="https://github.com/yaap"
+           revision="refs/heads/thirteen" />
+
   <remote name="pixelexperience"
           fetch="https://github.com/PixelExperience"
           revision="thirteen"  />
@@ -34,11 +38,13 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixelexperience-gitlab" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+  <project path="external/lz4" name="external_lz4" remote="yaap" />
   <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
