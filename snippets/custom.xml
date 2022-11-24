@@ -62,6 +62,7 @@
   <project path="system/core" name="system_core" remote="PixelOS" />
   <project path="system/media" name="system_media" remote="PixelOS" /> 
   <project path="system/sepolicy" name="system_sepolicy" remote="PixelOS" />
+  <project path="system/update_engine" name="system_update_engine" remote="PixelOS" />
   <project path="system/vold" name="system_vold" remote="PixelOS" />
 
   <!-- vendor repos -->
