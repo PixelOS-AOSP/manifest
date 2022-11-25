@@ -6,7 +6,7 @@
            revision="refs/heads/thirteen" />
 
   <remote  name="PixelOS-Gitlab"
-           fetch="https://gitlab.com/PixelOS-Pixelish"
+           fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/thirteen" />
 
   <!-- build repos -->
