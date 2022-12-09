@@ -70,7 +70,7 @@
   <project path="vendor/support" name="vendor_support" remote="PixelOS" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="PixelOS" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
-  <project path="vendor/gms" name="vendor_gms" remote="PixelOS-Gitlab" revision="thirteen" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="PixelOS-Gitlab" revision="refs/tags/2022-11" clone-depth="1" />
   
   <!-- other repos -->
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="PixelOS" />
