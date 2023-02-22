@@ -79,6 +79,7 @@
   <remove-project name="platform/prebuilts/build-tools" />
 
   <!-- System -->
+  <remove-project name="platform/system/apex"/>
   <remove-project name="platform/system/core"/>
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
