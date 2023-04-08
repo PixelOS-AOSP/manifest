@@ -80,5 +80,4 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Gitlab" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="PixelOS" />
 </manifest>
