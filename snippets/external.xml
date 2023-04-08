@@ -29,7 +29,6 @@
 
   <!-- External -->
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
-  <project path="external/arm-optimized-routines" name="YAAP/external_arm-optimized-routines" groups="pdk" remote="YAAP" />
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="LineageOS" />
