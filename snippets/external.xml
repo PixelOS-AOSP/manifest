@@ -205,7 +205,14 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="LineageOS" />
 
   <!-- NXP additions -->
-  <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" groups="nxp" remote="LineageOS" />
-  <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" groups="nxp" remote="LineageOS" />
-  <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" remote="LineageOS" />
+  <project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="ArrowOS" />
+  <project path="vendor/nxp/secure_element" name="ArrowOS/android_vendor_nxp_secure_element" remote="ArrowOS" />
+  <project path="vendor/nxp/secure_element_extns" name="ArrowOS/android_vendor_nxp_secure_element_extns" remote="ArrowOS" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="ArrowOS/android_vendor_nxp_interfaces_opensource_nfc" remote="ArrowOS" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="ArrowOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="ArrowOS" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="ArrowOS/android_vendor_nxp_opensource_frameworks" remote="ArrowOS" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.0-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.0-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.0-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.0-sn100x" />
 </manifest>
