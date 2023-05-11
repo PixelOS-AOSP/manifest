@@ -109,7 +109,8 @@
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="LineageOS" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="LineageOS" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
-  
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="LineageOS" />
+
   <!-- Hardware -->
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="LineageOS" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="LineageOS" />
