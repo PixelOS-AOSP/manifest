@@ -26,6 +26,7 @@
   <!-- Device -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="LineageOS" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="LineageOS" />
+  <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" remote="LineageOS" />
 
   <!-- External -->
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />

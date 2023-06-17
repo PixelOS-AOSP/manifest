@@ -16,6 +16,7 @@
   <!-- Device -->
   <remove-project name="device/generic/common" />
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
   <remove-project name="kernel/configs" />
 
   <!-- External -->
