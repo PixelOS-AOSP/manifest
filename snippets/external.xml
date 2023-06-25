@@ -185,6 +185,7 @@
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="LineageOS" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" revision="main" remote="github" />
   <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" revision="sc-qpr3" remote="github" />
+  <project path="packages/modules/Bluetooth/android/BtHelper" name="ArrowOS/android_packages_modules_Bluetooth_android_BtHelper" remote="ArrowOS"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
 
   <!-- Prebuilts -->
