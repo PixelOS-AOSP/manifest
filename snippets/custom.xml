@@ -75,4 +75,5 @@
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/google/gms" name="vendor_google_gms" clone-depth="1" remote="PixelOS-Gitlab" />
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="PixelOS"/>
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="PixelOS" />
 </manifest>
