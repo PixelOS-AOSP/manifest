@@ -92,6 +92,7 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
   <project path="system/memory/lmkd" name="LineageOS/android_system_memory_lmkd" groups="pdk" remote="LineageOS" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" />
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="LineageOS" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" remote="LineageOS" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" />
   
