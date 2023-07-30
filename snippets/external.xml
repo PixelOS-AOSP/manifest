@@ -14,7 +14,7 @@
   <remote  name="ArrowOS"
            fetch="https://github.com/"
            review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-13.0" />
+           revision="refs/heads/arrow-13.1" />
 
   <remote  name="YAAP"
            fetch="https://github.com/"
@@ -225,8 +225,8 @@
   <project path="vendor/nxp/opensource/interfaces/nfc" name="ArrowOS/android_vendor_nxp_interfaces_opensource_nfc" remote="ArrowOS" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="ArrowOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="ArrowOS" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="ArrowOS/android_vendor_nxp_opensource_frameworks" remote="ArrowOS" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.0-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.0-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.0-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.0-sn100x" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.1-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.1-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.1-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.1-sn100x" />
 </manifest>
