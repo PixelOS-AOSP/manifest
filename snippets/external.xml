@@ -60,6 +60,7 @@
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="LineageOS" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="LineageOS" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="LineageOS" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="LineageOS" />
