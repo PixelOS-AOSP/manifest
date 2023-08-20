@@ -33,6 +33,7 @@
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="LineageOS" />
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="LineageOS" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
   <project path="external/erofs-utils" name="YAAP/external_erofs-utils" groups="pdk" remote="YAAP" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
