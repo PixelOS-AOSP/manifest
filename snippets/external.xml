@@ -71,7 +71,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
   <project path="hardware/qcom/sm8150/gps" name="LineageOS/android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" remote="LineageOS" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="LineageOS" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="LineageOS" revision="lineage-20.0-caf" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="LineageOS" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="LineageOS" />
 
