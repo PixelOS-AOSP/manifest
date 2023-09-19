@@ -113,7 +113,6 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="LineageOS" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="LineageOS" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="LineageOS" />
-  <project path="external/dwarves" name="platform/external/dwarves" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" remote="aosp" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="LineageOS" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="LineageOS" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="LineageOS" />
