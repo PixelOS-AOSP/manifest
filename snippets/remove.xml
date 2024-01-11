@@ -133,14 +133,15 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Nfc"/>
-  <remove-project name="platform/packages/apps/Settings"/>
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/Bluetooth"/>
-  <remove-project name="platform/packages/modules/common"/>
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/common" />
+  <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony"/>
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
