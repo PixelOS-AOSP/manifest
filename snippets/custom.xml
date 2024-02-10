@@ -71,6 +71,7 @@
   <!-- Vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
+  <project path="vendor/microsoft" name="vendor_microsoft" remote="PixelOS" />
   <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Devices-Gitlab" />
 
 </manifest>
