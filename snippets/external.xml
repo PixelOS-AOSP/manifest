@@ -62,8 +62,8 @@
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="LineageOS" />
 
   <!-- Packages -->
-  <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" revision="refs/changes/72/368672/4" />
-  <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" revision="refs/changes/82/368682/2" />
+  <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" />
+  <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 
@@ -81,7 +81,7 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" remote="LineageOS" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" revision="refs/changes/72/368772/4" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" />
   
   <!-- Begin Extras -->
 
@@ -203,8 +203,6 @@
   <project path="packages/apps/BtHelper" name="TheParasiteProject/packages_apps_BtHelper" revision="14.0" remote="github"/>
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="LineageOS" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" revision="fourteen" remote="PixelOS-Gitlab" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" revision="main" remote="github" />
-  <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" revision="sc-qpr3" remote="github" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
 
   <!-- Prebuilts -->
