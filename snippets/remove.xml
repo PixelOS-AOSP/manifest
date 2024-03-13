@@ -146,7 +146,6 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf"/>
