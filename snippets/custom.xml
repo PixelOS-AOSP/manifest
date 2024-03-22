@@ -33,6 +33,9 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="PixelOS" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PixelOS" />
