@@ -46,6 +46,7 @@
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="LineageOS" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="LineageOS" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="LineageOS" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="LineageOS" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="LineageOS" />
@@ -63,12 +64,10 @@
 
   <!-- Packages -->
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" />
+  <project path="packages/modules/Bluetooth" name="LineageOS/android_packages_modules_Bluetooth" groups="pdk" remote="LineageOS" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
-
-  <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS" />
 
   <!-- System -->
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="LineageOS" />
@@ -80,6 +79,7 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" remote="LineageOS" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="LineageOS" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" />
   
   <!-- Begin Extras -->
@@ -129,10 +129,6 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
     <linkfile src="os_pickup.bp" dest="kernel/google/gs101/private/google-modules/Android.bp" />
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
