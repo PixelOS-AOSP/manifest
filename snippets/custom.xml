@@ -58,7 +58,6 @@
 
   <!-- Device -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PixelOS" />
 
   <!-- Packages -->
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />

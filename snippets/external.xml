@@ -16,6 +16,7 @@
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="LineageOS" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="LineageOS" />
   <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" remote="LineageOS" />
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="LineageOS" />
 
   <!-- External -->
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
