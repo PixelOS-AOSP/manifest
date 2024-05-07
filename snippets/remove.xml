@@ -131,6 +131,7 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Bluetooth" />
