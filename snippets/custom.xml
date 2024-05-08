@@ -47,13 +47,13 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="PixelOS" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="PixelOS" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="PixelOS" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="PixelOS" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="PixelOS" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="PixelOS" />
 
   <!-- Begin Extras -->
 
