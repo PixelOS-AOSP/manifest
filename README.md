@@ -28,11 +28,11 @@ Building the System
 Lunch your device after cloning all device sources if needed.
 
 ```bash
-lunch aosp_devicecodename-buildtype
+lunch aosp_devicecodename-ap2a-buildtype
 ```
 
 Start compilation
 
 ```bash
-make bacon
+mka bacon
 ```
