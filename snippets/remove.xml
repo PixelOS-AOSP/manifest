@@ -91,6 +91,7 @@
   <remove-project name="kernel/configs" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/dtc" />

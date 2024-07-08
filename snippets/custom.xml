@@ -30,6 +30,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="PixelOS" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="PixelOS" />
 
   <!-- Frameworks -->
