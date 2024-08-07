@@ -17,9 +17,6 @@
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="LineageOS" />
   <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" remote="LineageOS" />
 
-  <!-- Art -->
-  <project path="art" name="LineageOS/android_art" groups="pdk" remote="LineageOS" />
-
   <!-- External -->
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" remote="LineageOS" />

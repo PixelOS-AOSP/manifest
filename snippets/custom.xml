@@ -11,6 +11,7 @@
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
+  <project path="art" name="art" groups="pdk" remote="PixelOS" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="PixelOS" />
