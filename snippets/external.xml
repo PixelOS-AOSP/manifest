@@ -164,8 +164,8 @@
   <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8350" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" revision="lineage-21.0-caf-sm8350" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" remote="LineageOS" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" remote="LineageOS" />
-  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" remote="LineageOS" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="refs/changes/53/399553/2" remote="LineageOS" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="refs/changes/52/399552/1" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8450" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8450/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" remote="LineageOS" />
@@ -213,7 +213,7 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="LineageOS" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="LineageOS" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-vendor" remote="LineageOS" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-vendor" revision="refs/changes/55/399555/1" remote="LineageOS" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="LineageOS" />
   <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="LineageOS" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="LineageOS" />
