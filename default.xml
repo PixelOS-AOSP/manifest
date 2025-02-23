@@ -59,6 +59,7 @@
   <project path="device/generic/qemu" name="device/generic/qemu" groups="pdk" />
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
   <project path="device/generic/uml" name="device/generic/uml" groups="device,pdk" />
+  <project path="packages/modules/Connectivity-old" name="Platform/packages/modules/Connectivity-old" remote="github" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" groups="pdk" />
