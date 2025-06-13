@@ -9,6 +9,10 @@
            fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/fifteen" />
 
+  <remote  name="NothingExperience"
+      fetch="https://github.com/NothingExperience"
+           revision="refs/heads/fifteen" />
+
   <!-- AOSP additions -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="PixelOS" />
@@ -27,7 +31,7 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PixelOS" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="PixelOS" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="NothingExperience" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="PixelOS" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
@@ -37,10 +41,11 @@
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="PixelOS" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="NothingExperience" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="NothingExperience" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Gitlab" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="PixelOS" />
+  <project path="vendor/nothing" name="vendor_nothing" remote="NothingExperience" />
 
 </manifest>
