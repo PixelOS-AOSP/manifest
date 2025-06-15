@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="PixelOS"
+  <remote  name="ashwani212"
       fetch="https://github.com/ashwani212"
            revision="refs/heads/fifteen" />
 
@@ -16,3 +16,4 @@
 <!-- vendor repo -->
 <project path="vendor/aosp" name="vendor_aosp" remote="ashwani212" />
 
+</manifest>
