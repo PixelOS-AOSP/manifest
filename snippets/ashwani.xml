@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="PixelOS"
+      fetch="https://github.com/ashwani212"
+           revision="refs/heads/fifteen" />
+
+<!-- aosp additions -->
+<project path="frameworks/base" name="frameworks_base_pos" groups="pdk-cw-fs,pdk-fs" remote="ashwani212" />
+<project path="packages/apps/Settings" name="packages_apps_Settings_pos" groups="pdk-fs" remote="ashwani212" />
+<project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="ashwani212">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+<!-- vendor repo -->
+<project path="vendor/aosp" name="vendor_aosp" remote="ashwani212" />
+
