@@ -80,6 +80,10 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/system/core" />
 
+  <!-- External -->
+  <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/external/lz4" />
+
   <!-- lineage.xml -->
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bootable/deprecated-ota" />

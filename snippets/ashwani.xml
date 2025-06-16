@@ -13,6 +13,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+<!-- External -->
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="ashwani212" />
+  <project path="external/lz4" name="external_lz4" remote="ashwani212" />
+
 <!-- vendor repo -->
 <project path="vendor/aosp" name="vendor_aosp" remote="ashwani212" />
 
